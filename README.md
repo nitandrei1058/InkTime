@@ -26,7 +26,7 @@ graph TD
         U1 -->|I2C| IC2[DRV2605L Haptic]
         U1 -->|I2C| IC1
         IC2 --> MOTOR[Vibration Motor]
-        U1 -->|SPI + GPIO| J1[EPD Display 1.54"]
+        U1 -->|SPI + GPIO| J1["EPD Display 1.54 inch"]
         U1 -->|GPIO| BTN[3x Tactile Buttons]
     end
 ```
